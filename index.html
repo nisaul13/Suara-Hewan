@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hewan & Suaranya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<style>
+	.flex-container {
+	  display: flex;
+	  background-color: azure;
+	}
+    .duck{
+        background-image:url(img/bbek.jpg);
+        background-size: cover;
+    }
+    .goat{
+        background-image:url(img/kambingg.jpg);
+        background-size: cover;
+    }
+    .cow{
+        background-image:url(img/sapii.jpg);
+        background-size: cover;
+    }
+
+	.flex-container > div {
+	  background-color: #f1f1f1;
+	  margin: 10px;
+	  padding: 20px;
+	  font-size: 30px;
+	}
+	</style>
+  </head>
+  <body>
+    <h3 align="center">Hewan & Suaranya</h3>
+	<div class="accordion" id="accordionExample">
+	  <div class="accordion-item">
+		<h2 class="accordion-header" id="headingOne">
+		  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			Hewan Ternak
+		  </button>
+		</h2>
+		<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			<div class="flex-container">
+			  <div class="bebek">Bebek</div>
+			  <div class="kambing">Kambing</div>
+			  <div class="sapi">Sapi</div>  
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="accordion-item">
+		<h2 class="accordion-header" id="headingTwo">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			Hewan Peliharaan
+		  </button>
+		</h2>
+		<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			<strong>Hewan Peliharaan</strong> adalah hewan yang terutama dipelihara sebagai teman sehari-hari manusia alih-alih 
+			sebagai hewan pekerja, hewan ternak, atau hewan percobaan yang dipelihara untuk kepentingan ekonomi 
+			atau untuk melakukan tugas tertentu. Hewan kesayangan yang populer biasanya adalah hewan yang memiliki 
+			kepribadian yang menyenangkan, seperti setia pada pemeliharanya, atau memiliki penampilan yang menarik, 
+			atau kercerdasan dan kemampuan tertentu seperti mengeluarkan suara yang indah
+		  </div>
+		</div>
+	  </div>
+	  <div class="accordion-item">
+		<h2 class="accordion-header" id="headingThree">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			Hewan Buas
+		  </button>
+		</h2>
+		<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			<strong>Hewan Buas</strong> Menurut Kamus Besar Bahasa Indonesia (KBBI), 
+			hewan buas sendiri merupakan binatang liar dan biasanya memusuhi manusia. 
+			Artinya, mereka merupakan hewan yang berbahaya bagi manusia karena bisa menyerang manusia. 
+			Namun, biasanya mereka hanya akan menyerang manusia ketika merasa terancam.
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+	
+  </body>
+</html>
